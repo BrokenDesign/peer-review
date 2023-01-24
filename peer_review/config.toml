@@ -1,0 +1,53 @@
+[schemas.scenario]
+    [n_reviewers]
+        type = "integer"
+        min = 1 
+        max = 50
+    [n_errors]
+        type = "integer"
+        min = 1
+        max = 50
+    [detect_rate]
+        type = "float"
+        min = 0
+        max = 1
+
+[scenarios.DEFAULT]
+    name = "DEFAULT"
+    type = "PRESET"
+    n_reviewers = 4
+    n_errors = 4
+    detect_rate = 0.3
+
+[scenarios.ERROR_PRONE]
+    name = "ERROR PRONE"
+    type = "PRESET"
+    n_reviewers = 4
+    n_errors = 10
+    detect_rate = 0.1
+
+[scenarios.LIGHT_REVIEW]
+    name = "LIGHT REVIEW"
+    type = "PRESET"
+    n_reviewers = 2
+    n_errors = 4
+    detect_rate = 0.3
+
+[scenarios.OBVIOUS_ERRORS]
+    name = "OBVIOUS ERRORS"
+    type = "PRESET"
+    n_reviewers = 2
+    n_errors = 4
+    detect_rate = 0.3
+
+[scenarios.MASSIVE_REVIEW]
+    name = "MASSIVE REVIEW"
+    type = "PRESET"
+    n_reviewers = 5
+    n_errors = 4
+    detect_rate = 0.3
+
+[[scenarios.CUSTOM]]
+
+
+
