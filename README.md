@@ -1,9 +1,15 @@
-Here's links for all of the things I'm asking you to install</br>
-https://github.com/pyenv-win/pyenv-win</br>
-https://python-poetry.org/</br>
-https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy
+# Instructions for Joe
 
-Note for the commands below you may have to update your execution policy. This can be done for each of the particular commands, or you can do it globally with: 
+If you're not Joe then why are you looking at this??? If you are Joe then continue...
+
+Most of the commands are from memory so apologies in advance for any mistakes/typos. I'll make it easier to use once the app portion is complete (webapp with the visualizations). This is just if you wanted to run it to check the probability calculations... 
+
+Here's links for all of the things I'm asking you to install:
+* https://github.com/pyenv-win/pyenv-win
+* https://python-poetry.org/
+* https://learn.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy
+
+Note: for the commands below you may have to update your execution policy. This can be done for each of the particular commands, or you can do it globally with: 
 
 ```
 Set-ExecutionPolicy <policy> 
